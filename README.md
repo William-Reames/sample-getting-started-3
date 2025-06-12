@@ -17,7 +17,7 @@ The sample application provides a simple example of how to get started with Open
       - `SystemHealth.java` - A MicroProfile Health check that reports DOWN if the application is in maintenance and UP otherwise.
       - `SystemResource.java` - A REST Resource that exposes the System properties via a /rest/properties GET request. Calls to this GET method have MicroProfile Timer and Count metrics applied.
       - `SystemRuntime.java` - A REST Resource that exposes the version of the Open Liberty runtime via a /rest/runtime GET request.
-    - `SystemApplication.java` - The Jakarta RESTful Web Services Application class 
+    - `SystemApplication.java` - The Jakarta RESTful Web Services Application class  
   - `liberty/config/server.xml` - The server configuration for the liberty runtime
   - `META-INF` - Contains the metadata files for MicroProfile Config including how to load CustomConfigSource.java
   - `webapp` - Contains the Web UI for the application.
