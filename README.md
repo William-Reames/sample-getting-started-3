@@ -12,7 +12,7 @@ The sample application provides a simple example of how to get started with Open
     - `config` 
       - `ConfigResource.java` - A REST Resource that exposes MicroProfile Config via a /rest/config GET request
       - `CustomConfigSource.java` - A MicroProfile Config ConfigSource that reads a json file.
-    - `system`
+    - `system` 
       - `SystemConfig.java` - A CDI bean that will report if the application is in maintenance. This supports the config variable changing dynamically via an update to a json file.
       - `SystemHealth.java` - A MicroProfile Health check that reports DOWN if the application is in maintenance and UP otherwise.
       - `SystemResource.java` - A REST Resource that exposes the System properties via a /rest/properties GET request. Calls to this GET method have MicroProfile Timer and Count metrics applied.
