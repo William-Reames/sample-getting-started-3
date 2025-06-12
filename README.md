@@ -9,7 +9,7 @@ The sample application provides a simple example of how to get started with Open
  
 - `src/main/java` - the Java code for the Project 
   - `io/openliberty/sample`
-    - `config`
+    - `config` 
       - `ConfigResource.java` - A REST Resource that exposes MicroProfile Config via a /rest/config GET request
       - `CustomConfigSource.java` - A MicroProfile Config ConfigSource that reads a json file.
     - `system`
